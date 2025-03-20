@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+}
+
+header {
+    position: relative;
+    background: url('background.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 300px;
+}
+.header-aluno{    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.1);
+}
+
+
+h1 a{
+    text-decoration: none;
+    color: white;
+}
+h1 a:hover{
+    color: #0F4AA7;
+    transition: 0.3s;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #0F4AA7;
+}
+.fotoperfil{
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+}
+.header-container-home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.team-logo-home {
+    width: 80px;
+    height: 80px;
+    border-radius: 5%;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+.header-content {
+    position: relative;
+    z-index: 1;
+    padding: 30px;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+#projects a {
+    text-decoration: none; 
+    color: inherit;         
+}
+
+#projects a:hover {
+    color: inherit;         
+}
+.project {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#contact a img {
+    width: 40px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+#contact a img:hover {
+    transform: scale(1.2);
+}
+footer {
+    background: #181818;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-content p {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icons a img {
+    width: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2);
+}
+
+.glitch {
+    position: relative;
+    display: inline-block;
+    animation: glitch 1s infinite alternate;
+}
+
+@keyframes glitch {
+    0% { text-shadow: 2px 2px red, -2px -2px blue; }
+    20% { text-shadow: -2px -2px cyan, 2px 2px magenta; }
+    40% { text-shadow: 2px -2px lime, -2px 2px yellow; }
+    60% { text-shadow: -2px 2px purple, 2px -2px orange; }
+    80% { text-shadow: 2px 2px white, -2px -2px black; }
+    100% { text-shadow: -2px -2px red, 2px 2px blue; }
+}
+#about {
+
+    text-align: left;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;  /* Centraliza horizontalmente */
+    width: 100%;  /* Garante que a largura seja de 100% */
+}
+
+#about ul {
+    list-style: none;
+    padding-left: 20px;
+    color: #ffffff;
+}
+
+#about ul li {
+    margin: 5px 0;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+#about p strong {
+    font-weight: bold;
+}
+
+#about h2 {
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;  /* Centraliza o título */
+}
+
+#about h3 {
+    font-size: 22px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.junta-sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    max-width: 1200px;  /* Limita a largura para evitar que fique muito grande */
+    width: 100%;
+}
+.sobre-1, .sobre-2 {
+    flex: 1;  /* Faz os dois divs dentro de .junta-sobre ocuparem o mesmo espaço */
+    padding: 35px;
+    box-sizing: border-box;
+}
