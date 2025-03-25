@@ -11,7 +11,7 @@ body {
     text-align: center;
 }
 main {
-    flex-grow: 1; /* Faz o conteúdo expandir e empurrar o rodapé para baixo */
+    flex-grow: 1; 
 }
 
 html, body {

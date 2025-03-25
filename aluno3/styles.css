@@ -49,7 +49,7 @@ header{    background: rgba(255, 255, 255, 0.05);
 
 .fotoperfil{
     width: 330px;
-    height: 390px;
+    height: 440px;
 }
 h1 a{
     text-decoration: none;
@@ -73,6 +73,7 @@ nav ul li a {
     color: white;
     font-weight: bold;
     transition: 0.3s;
+    
 }
 
 nav ul li a:hover {
@@ -197,8 +198,8 @@ footer {
     flex-direction: column;
     display: flex;
     justify-content: center;
-    align-items: center;  /* Centraliza horizontalmente */
-    width: 100%;  /* Garante que a largura seja de 100% */
+    align-items: center;
+    width: 100%; 
 }
 
 #about ul {
@@ -225,7 +226,7 @@ footer {
     font-size: 28px;
     color: #ffffff;
     margin-bottom: 20px;
-    text-align: center;  /* Centraliza o título */
+    text-align: center; 
 }
 
 #about h3 {
@@ -237,19 +238,19 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    max-width: 1265px;  /* Limita a largura para evitar que fique muito grande */
+    max-width: 1265px; 
     width: 100%;
 }
 .sobre-1, .sobre-2 {
-    flex: 1;  /* Faz os dois divs dentro de .junta-sobre ocuparem o mesmo espaço */
+    flex: 1; 
     padding: 35px;
     box-sizing: border-box;
+    line-height: 24px;
 }
 .sobre-3, .sobre-4, .sobre-5, .sobre-6{
     background-color: rgb(32, 29, 47);
     border-radius: 10px;
     box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.1);
-    
 }
 .sobre-4{
     height: 153px;
